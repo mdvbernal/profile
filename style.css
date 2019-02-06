@@ -23,6 +23,7 @@ th {
 
 a{
   color: gray;
+  text-decoration: none;
 }
 
 a:hover{
@@ -35,7 +36,10 @@ img {
 #profile {
   border-radius: 50%;
 }
-
+.movies {
+  height="100";
+  width="100";
+}
 .container li{
   display: inline;
   padding: 5px;
