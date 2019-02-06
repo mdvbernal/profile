@@ -1,0 +1,52 @@
+body{
+  background: rgb(255, 255, 255);
+  color: rgb(10, 10, 10);
+  font-size: 16px;
+  font-family:  'Courier New', sans-serif;
+  text-align: center;
+}
+h1{
+  color: gray;
+  font-size: 50px;
+  font-weight: lighter;
+  font-family: Courier;
+}
+
+table {
+margin: 0 auto;
+padding: 1px;
+}
+
+th {
+  margin: 0 auto;
+}
+
+a{
+  color: gray;
+}
+
+a:hover{
+  text-decoration: none;
+  color: black;
+}
+img {
+  border-radius: 10%;
+}
+#profile {
+  border-radius: 50%;
+}
+
+.container li{
+  display: inline;
+  padding: 5px;
+}
+.container {
+  background: rgb(200, 200, 200);
+  width: 500px;   /* This sets the width */
+  margin: 0 auto; /* This automatically sets left/right margins */
+  border-radius: 5px;
+  padding: 1px;
+  margin: 10px auto;
+  text-align: center;
+}
+
