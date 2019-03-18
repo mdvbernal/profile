@@ -11,16 +11,6 @@ h1{
   font-weight: lighter;
   font-family: Courier;
 }
-
-table {
-margin: 0 auto;
-padding: 1px;
-}
-
-th {
-  margin: 0 auto;
-}
-
 a{
   color: gray;
   text-decoration: none;
@@ -28,30 +18,42 @@ a{
 
 a:hover{
   text-decoration: none;
+  font-weight:bold;
   color: black;
 }
 img {
   border-radius: 10%;
 }
-#profile {
-  border-radius: 50%;
-  border: 2px solid black;
+p {
+  text-align: justify;
 }
-.movies {
-  height="100";
-  width="100";
+td {
+  width:350px;
 }
+
 .container li{
   display: inline;
-  padding: 5px;
 }
 .container {
   background: rgb(200, 200, 200);
-  width: 500px;   /* This sets the width */
+  width: 700px;   /* This sets the width */
   margin: 0 auto; /* This automatically sets left/right margins */
-  border-radius: 8px;
+  border-radius: 5px;
   padding: 1px;
   margin: 10px auto;
-  text-align: center;
 }
-
+.card{
+  background: rgb(200, 200, 200);
+  padding: 10px;
+  font-weight: lighter;
+  border-radius: 50px;
+}
+.text-content {
+  padding: 15px;
+}
+@media (max-width: 800px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
